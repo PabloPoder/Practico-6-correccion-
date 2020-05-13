@@ -16,17 +16,15 @@ public class Clientes {
     private String apellido;
     private String domicilio;
     private String ciudad;
-    private String nroTelefono;
     private String dni;
     
     
 //    Constructor
-    public Clientes(String nombre, String apellido, String domicilio, String ciudad, String nroTelefono, String dni){
+    public Clientes(String nombre, String apellido, String domicilio, String ciudad, String dni){
         this.nombre = nombre;
         this.apellido = apellido;
         this.domicilio = domicilio;
         this.ciudad = ciudad;
-        this.nroTelefono = nroTelefono;
         this.dni = dni;
     }
     
@@ -57,13 +55,6 @@ public class Clientes {
     }
     public void setCiudad(String ciudad){
         this.ciudad = ciudad;
-    }
-    
-    public String getNroTelefono(){
-        return nroTelefono;
-    }
-    public void setNroTelefono(String nroTelefono){
-        this.nroTelefono = nroTelefono;
     }
     
     public void setDni(String dni) {

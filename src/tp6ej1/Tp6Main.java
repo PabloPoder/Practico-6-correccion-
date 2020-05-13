@@ -22,12 +22,12 @@ public class Tp6Main {
         DirectorioTelefonico directorioTelefonico = new DirectorioTelefonico();
         
         //Creacion de Personas/Clientes
-        Clientes cliente = new Clientes("Pablo", "Poder", "Cerros Colorados", "Juana Koslay", "2664 505080", "45.456.496");
-        Clientes cliente1 = new Clientes("Calos", "Juarez", "Cerros Colorados", "Juana Koslay", "2664 505562", "23.498.456");
-        Clientes cliente2 = new Clientes("Mario", "Gomez", "Cerros Colorados", "San Luis", "2664 122362", "12.266.786");
-        Clientes cliente3 = new Clientes("Nacho", "Cruceno", "Miami", "Calle Francia", "2664 698571", "78.366.86");
-        Clientes cliente4 = new Clientes("Luis", "Mercado", "Los Lapachos", "La Punta", "2664 585121", "23.248.778");
-        Clientes cliente5 = new Clientes("Luis", "Mercado", "Los Lapachos", "La Punta", "2664 202020", "23.248.778");
+        Clientes cliente = new Clientes("Pablo", "Poder", "Cerros Colorados", "Juana Koslay", "45.456.496");
+        Clientes cliente1 = new Clientes("Calos", "Juarez", "Cerros Colorados", "Juana Koslay", "23.498.456");
+        Clientes cliente2 = new Clientes("Mario", "Gomez", "Cerros Colorados", "San Luis", "12.266.786");
+        Clientes cliente3 = new Clientes("Nacho", "Cruceno", "Miami", "Calle Francia", "78.366.86");
+        Clientes cliente4 = new Clientes("Luis", "Mercado", "Los Lapachos", "La Punta", "23.248.778");
+        Clientes cliente5 = new Clientes("Luis", "Mercado", "Los Lapachos", "La Punta", "23.248.778");
         
         
         //Anniadiendo clientes
